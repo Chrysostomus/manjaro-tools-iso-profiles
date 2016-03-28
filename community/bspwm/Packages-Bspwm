@@ -69,7 +69,8 @@ bspwm-ruler
 ##Desktop 
 spacefm
 udevil
-epiphany
+#epiphany
+xombrero
 gedit
 file-roller
 gnome-disk-utility
