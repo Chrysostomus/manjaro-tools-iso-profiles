@@ -69,6 +69,7 @@ bspwm-ruler
 ##Desktop 
 spacefm
 udevil
+gvfs
 #epiphany
 xombrero
 gedit
