@@ -1,0 +1,37 @@
+- name: "base-devel"
+  description: "Development packages"
+  packages:
+        - autoconf
+        - automake
+        - binutils
+        - bison
+        - fakeroot
+        - file
+        - findutils
+        - flex
+        - gawk
+        - gcc
+        - gettext
+        - grep
+        - groff
+        - gzip
+        - libtool
+        - m4
+        - make
+        - patch
+        - pkg-config
+        - sed
+        - sudo
+        - texinfo
+        - util-linux
+        - which
+
+- name: "util"
+  description: "Utilities packages"
+  packages:
+        - foo
+
+- name: "multimedia"
+  description: "Multimedia packages"
+  packages:
+        - foo

@@ -1,42 +1,36 @@
-
 ######################################################
 ### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
 ######################################################
 
 ## deepin packages
-deepin-account-faces
-deepin-control-center
-deepin-daemon
-deepin-desktop
-deepin-dock
+deepin-calendar
+deepin-file-manager
 deepin-gtk-theme
-deepin-launcher
-deepin-manjaro
 deepin-social-sharing
-libdeepin-webkit
-nautilus-empty-file
+deepin-image-viewer
 
 ## deepin-extra packages
 deepin-movie
-deepin-music
 deepin-screenshot
 deepin-terminal
+# workaround launcher-bug https://github.com/linuxdeepin/dde-launcher/issues/5
+gnome-terminal
 
 ## other deepin Packages
+baobab
+chromium
 dconf-editor
-gnome-system-monitor
 downgrade
 evince
+gedit
+poppler-data # CKJ support for pdf
 evolution
-chromium
-deepin-trash
 galculator
 gimp
 gksu
 gnome-system-monitor
 gnome-vfs
 gparted
-gthumb
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp # for mounting Samsung phones
@@ -45,16 +39,22 @@ hexchat
 htop
 isousb
 libimobiledevice
-libreoffice-fresh
+libreoffice-still
+manjaro-browser-settings
 manjaro-deepin-settings
 manjaro-documentation
-manjaro-settings-manager
+manjaro-features
+manjaro-settings-manager-notifier
 manjaro-welcome
 mlocate
-mousepad
 polkit-gnome
+qt5ct
+qt5-styleplugins
 screenfetch
+smplayer
+sushi
 gufw # firewall
+transmission-gtk
 xarchiver
 xfburn
 
@@ -88,6 +88,11 @@ pulseaudio-zeroconf
 
 ## Package management
 pamac
+yaourt
+
+## Artwork
+adwaita-manjaro-themes
+plymouth-theme-manjaro-deepin-circle
 
 ## Games
 deepin-game
@@ -111,11 +116,7 @@ bison
 fakeroot
 flex
 gcc
-git
-libconfig
 libtool
 m4
 make
 patch
-subversion
-yaourt

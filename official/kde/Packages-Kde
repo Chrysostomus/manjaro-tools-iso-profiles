@@ -5,6 +5,11 @@
 ## Network
 >systemd networkmanager
 >openrc networkmanager-openrc
+>openrc networkmanager-consolekit
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc 
 networkmanager-dispatcher-ntpd
 >systemd openresolv
 openssh
@@ -31,7 +36,12 @@ manjaro-alsa
 manjaro-pulse
 phonon-qt5-gstreamer
 phonon-qt4-gstreamer
+pyqt5-common # For hplip
+python-pillow # For hplip
+python-pip # For hplip
 python-pyqt4  # For pulseaudio gui
+python-pyqt5  # For hplip gui
+python-reportlab # For hplip
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
@@ -46,7 +56,6 @@ gvfs-smb
 gvfs-mtp
 gvfs-afc
 gvfs
-open-fuse-iso
 android-tools
 android-udev
 kamera
@@ -76,7 +85,6 @@ yaourt
 noto-fonts  # default font
 #noto-fonts-cjk  # big package, ~76 mb compressed
 noto-fonts-emoji
-ttf-oxygen  # used for monospaced
 cantarell-fonts
 
 ## Games
@@ -117,7 +125,6 @@ drkonqi
 kde-gtk-config
 kdeplasma-addons
 kgamma5
-khelpcenter
 kinfocenter
 kmenuedit
 kscreen
@@ -130,7 +137,6 @@ kwin
 kwrited
 milou
 oxygen
-oxygen-cursors
 plasma-desktop
 plasma-nm
 plasma-pa
@@ -141,9 +147,11 @@ systemsettings
 user-manager
 
 ## Themes
-plasma5-themes-maia
+plasma5-themes-maia  # Default
+plasma5-themes-andromeda
 gnome-icon-theme
-sddm-maia-theme
+sddm-maia-theme  # Default
+sddm-andromeda-theme
 >systemd plymouth-theme-manjaro-elegant
 
 ## GTK Themes
@@ -177,9 +185,12 @@ kdebase-kfind
 kdeconnect
 kdegraphics-okular
 kdenetwork-kget
+kdenetwork-filesharing
 kdenlive
 kde-servicemenus-rootactions
+khelpcenter
 kio-extras
+kleopatra
 konsole
 konversation
 ksystemlog
@@ -189,19 +200,19 @@ gwenview
 print-manager
 skanlite
 spectacle
-# KDE PIM
-akonadiconsole
-akregator
-blogilo
-kaddressbook
-kalarm
-kleopatra
-kmail
-knotes
-konsolekalendar
-kontact
-korganizer
-ktnef
+
+## KDE PIM
+#akonadiconsole
+#akregator
+#blogilo
+#kaddressbook
+#kalarm
+#kmail
+#knotes
+#konsolekalendar
+#kontact
+#korganizer
+#ktnef
 
 ## Optional dependencies for k3b
 cdparanoia    # for cd ripping support
@@ -226,48 +237,47 @@ qt5-imageformats  # support for tiff, webp, and more image formats
 ## Optional dependency for digikam
 kipi-plugins  # more tools and plugins
 
-## Optional dependency for dolphin
-ruby  # installing new service menus with GHNS
-ffmpegthumbs  # video thumbnails
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+ruby                      # installing new service menus with GHNS
+
+## Optional dependencies for print-manager
+system-config-printer  # auto-detect the printer driver
+cups-pk-helper         # PolicyKit helper to configure cups with fine-grained privileges
+python-pysmbc          # SMB browser support
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser 
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
 
 ## Applications
 cantata
 imagewriter
+inkscape
+krita
 firefox-kde
 flashplugin
-#manjaro-settings-manager
-kcm-msm
+libreoffice-still
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 manjaro-welcome
 p7zip
 qbittorrent
 screenfetch
 >systemd systemd-kcm
-vlc
+thunderbird-kde
+vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
 mpd       # playback
 perl-uri  # dynamic playlist
-
-## Office
-libreoffice-still
-calligra-braindump
-#calligra-extras
-#calligra-filters
-#calligra-flow
-#calligra-handbook
-calligra-karbon
-#calligra-kexi
-calligra-krita
-#calligra-plan
-#calligra-plugins
-#calligra-sheets
-#calligra-stage
-#calligra-words
-
-## KDE Frameworks
-kmediaplayer
-kactivities
 
 # Partition
 #gparted
@@ -276,4 +286,6 @@ partitionmanager
 ## Documentation
 manjaro-documentation
 
+## Settings packages
 manjaro-kde-settings
+manjaro-browser-settings

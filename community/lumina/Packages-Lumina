@@ -1,0 +1,38 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+###lumina###
+lumina-desktop
+
+>openrc networkmanager-openrc
+>openrc networkmanager-consolekit
+>systemd networkmanager
+>openrc syslog-ng-openrc
+>systemd syslog-ng
+>openrc cronjobs
+
+###apps###
+qterminal
+compton
+kwrite
+
+###DisplayManager###
+>openrc sddm-consolekit
+>systemd sddm
+
+###Openbox###
+openbox
+obmenu-generator
+feh
+openbox-themes
+tint2
+
+###Artwork###
+#cantarell-fonts
+xcursor-breeze
+andromeda-icon-theme
+andromeda-wallpaper
+vertex-maia-themes
+
+manjaro-documentation

@@ -3,30 +3,35 @@
 ######################################################
 
 ## Artwork
-xcursor-menda
-menda-themes
-menda-themes-dark
 #libgnomeui
 gconf
 gnome-themes-standard
+mate-icon-theme
+mate-themes
+maia-wallpaper
 plymouth-theme-manjaro-elegant
 dconf-editor
-vertex-themes
-vertex-icons-git
-moka-icon-theme-git
-faba-mono-icons-git
+xcursor-breeze
 
 ## MATE Main Packages
-mate
-mate-extra
+mate-gtk3
+mate-extra-gtk3
+galculator
+marco-gtk3
 mate-menu
-galculator-gtk2
-xterm
-mate-accountsdialog
-mate-disk-utility
-#manjaro
+mate-control-center-gtk3
+mate-desktop-gtk3
+mate-terminal
+mate-utils-gtk3
+mate-tweak
+mate-notification-daemon
+mate-media-gtk3
+mate-user-guide
+gnome-disk-utility
 manjaro-documentation
-manjaro-mate-desktop-settings
+manjaro-mate-settings
+gtk3-print-backends
+
 ## Network
 blueman
 netctl
@@ -53,7 +58,6 @@ open-fuse-iso
 libgsf
 
 ## Display Manager
-lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
@@ -68,7 +72,7 @@ gnome-keyring
 manjaro-settings-manager
 manjaro-welcome
 thunderbird
-vlc
+vlc-nightly
 pragha
 #gufw
 accountsservice
@@ -78,11 +82,6 @@ yelp
 exfat-utils
 fuse-exfat
 
-vertex-icons-git
-vertex-themes
-moka-icon-theme-git
-faba-icon-theme-git
-faba-mono-icons-git
 ## Games
 
 
@@ -144,5 +143,3 @@ make
 patch
 subversion
 yaourt
-
-manjaro-mate-settings

@@ -3,14 +3,13 @@
 ######################################################
 
 ## Budgie packages
-
 lightdm
-#gnome-session
 budgie-desktop
 baobab
 dconf-editor
 hexchat
 evince
+gnome-calendar
 gnome-calculator
 gnome-control-center
 gnome-disk-utility
@@ -22,6 +21,7 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-screensaver
+gnome-tweak-tool
 grilo-plugins
 gucharmap
 mousetweaks
@@ -32,6 +32,7 @@ file-roller
 sushi
 #smplayer
 lollypop
+totem
 tracker
 vino
 xdg-user-dirs-gtk
@@ -43,11 +44,9 @@ brasero
 p7zip
 ibus
 alacarte
+nautilus-admin
 
 ## Main Packages
-#plank
-#plank-config
-gnome-tweak-tool
 gufw # firewall
 manjaro-settings-manager
 lightdm-gtk-greeter
@@ -57,19 +56,21 @@ network-manager-applet
 manjaro-budgie-settings
 
 ## Applications
+xarchiver
 firefox
-#thunderbird
 sylpheed
 gimp
 gksu
 gparted
 gvfs-afc
-#gvfs-afp
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 manjaro-welcome
 open-fuse-iso
+skippy-xd
+brightside
+redshift
 
 ## Network
 netctl
@@ -84,17 +85,13 @@ networkmanager-vpnc
 
 ## Artwork
 manjaro-artwork
-plymouth-theme-manjaro-extra-elegant
+plymouth-theme-manjaro-fancy-budgie
 adwaita-icon-theme
-#evopop-icon-theme
-#evopop-gtk-theme
-maia-icon-theme
 arc-themes
 arc-firefox-theme
-deepin-icon-theme
-#vertex-themes
-#firefox-theme-adwaita
+manjaro-browser-settings
 budgie-wallpapers
+moka-icon-theme
 
 ## Packages for Sound and Audio
 gst-libav
@@ -116,8 +113,6 @@ pulseaudio-zeroconf
 
 ## Package management
 pamac
-#polkit-gnome
-#lxsession
 
 ## Games
 steam-manjaro

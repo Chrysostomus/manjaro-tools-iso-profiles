@@ -25,7 +25,7 @@ dconf
 desktop-file-utils
 
 ## Packages for Sound and Audio
- manjaro-alsa	# containes 32bit libraries
+manjaro-alsa	# containes 32bit libraries
 #alsa-lib
 #alsa-utils
 #alsa-plugins
@@ -35,9 +35,10 @@ desktop-file-utils
 
 ## Artwork
 xcursor-breeze
-menda-circle-icon-theme
+breeze-maia-icon-themes
 console-solarized
 bspwm-wallpapers
+adwaita-maia-gtk3
 
 ## Network
 networkmanager
@@ -55,7 +56,6 @@ mygtkmenui
 feh
 lemonpanel
 limepanel
-lm_sensors
 zenity
 perl-file-mimeinfo
 dunst
@@ -69,14 +69,15 @@ bspwm-ruler
 ##Desktop 
 spacefm
 udevil
-epiphany
+gvfs
+lightfirefox
 gedit
 file-roller
 gnome-disk-utility
 lxappearance-gtk3
 gufw
 zathura-pdf-poppler
-
+morc_menu
 
 ##terminal
 #rxvt-unicode
@@ -93,6 +94,7 @@ mpv
 downgrade
 mhwd-tui
 bmenu
+bspwm-ruler
 brandr
 pacli
 moc
@@ -102,14 +104,16 @@ htop
 mhwd-chroot
 ranger # The rest are ranger optdepends
 w3m
-sxiv
-sxiv-rifle
 atool
 poppler
 hibernator
 delayed-hibernation
 xlogin
 thermald
+clonezilla
+dfc
+ncdu
+speedtest-cli
 
 ## AUR Access
 # base-devel

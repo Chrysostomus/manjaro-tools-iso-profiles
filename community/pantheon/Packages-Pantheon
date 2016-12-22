@@ -40,7 +40,7 @@ gtk-theme-elementary-bzr
 
 ##Pantheon Shell
 plank-bzr
-gala-bzr-manjaro #patched file
+gala-bzr #solved in upstream
 #pantheon-default-settings
 pantheon-session-bzr
 slingshot-launcher-bzr
@@ -52,7 +52,7 @@ wingpanel-indicator-network-bzr
 wingpanel-indicator-power-bzr
 wingpanel-indicator-session-bzr
 wingpanel-indicator-sound-bzr
-wingpanel-indicator-launcher-bzr
+#wingpanel-indicator-launcher-bzr
 #pantheon-session-bzr
 pantheon-default-settings-bzr
 

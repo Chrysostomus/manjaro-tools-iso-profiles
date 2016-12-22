@@ -53,7 +53,8 @@ s-nail
 sed
 shadow
 sysfsutils
->openrc eudev-systemdcompat
+>openrc eudev-systemd
+>openrc libeudev-systemd
 >openrc netifrc
 >systemd systemd-sysvcompat
 tar
@@ -76,6 +77,7 @@ manjaro-firmware
 manjaro-release
 memtest86+
 mkinitcpio-nfs-utils
+mkinitcpio-openswap # needed to be in rootfs by Calamares LUKS support
 >multilib lib32-mesa  # Optional dependency for mhwd
 os-prober
 pkg-config
@@ -98,7 +100,7 @@ xz
 zip
 
 ## Efi support (only x86_64)
->x86_64 prebootloader
+>x86_64 efitools
 >x86_64 refind-efi
 
 ## Storage and filesystem
@@ -146,8 +148,3 @@ zd1211-firmware
 
 ## ucode for new cpus
 intel-ucode
-
-## bmenu profiles should add it if required -> issue 119
-#bmenu
-#brandr
-#mhwd-tui
